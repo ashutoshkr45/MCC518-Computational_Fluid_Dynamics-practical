@@ -20,7 +20,7 @@ int main(){
     for(i=1;i<n;i++){
         u[i][0] = f(i*h);
     }
-    r = (c*c)*k / h;
+    r = (c*c)*k / (h*h);
 
     for(j=0;j<m;j++){
         for(i=1;i<n;i++){
