@@ -3,10 +3,10 @@
 
 using namespace std;
 
-const float L = 5.0;   // Length of the rod (8 cm)
+const float L = 5.0;   // Length of the rod (5 cm)
 const float T = 2.5; // Total time (5 * 0.5 = 2.5 seconds)
 const float dx = 1.0;  // Spatial step (1 cm)
-const float dt = 0.5; // Time step (0.125 s)
+const float dt = 0.5; // Time step (0.5 s)
 const float alpha = 1.0; // Diffusivity constant
 
 void solveTridiagonal(float* a, float* b, float* c, float* d, float* u, int n) {
