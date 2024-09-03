@@ -11,8 +11,8 @@
 | 05.08.2024 | 2              | 02_heat_eqn_explicit_fdm.cpp   | 9080ef0    |
 | 12.08.2024 | 3              | 03_implicit_heat_eqn.cpp       | 6039f9d    |
 | 19.08.2024 | 4              | 04_heat_eqn_implicit.cpp       | 887965b    |
-|            |                |                                |            |
-|            |                |                                |            |
+| 31.08.2024 | 5              | 05_crank_nicolson.cpp          | 2979e2e    |
+| 02.09.2024 | 6              | 06_semi-implicit_heat.cpp      | 20d3221    |
 |            |                |                                |            |
 |            |                |                                |            |
 |            |                |                                |            |
