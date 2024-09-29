@@ -43,7 +43,7 @@ int main(){
             }
         }
 
-        printf("\n\nIteration - %d: \nThe Solution of Laplace Equation is-\n",k);
+        cout<<"\n\nIteration - "<<k<<" : \nThe Solution of Laplace Equation is-\n";
         for(j=n;j>=0;j--)
         {
             for(i=0;i<=n;i++)
