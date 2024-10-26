@@ -13,10 +13,10 @@
 | 19.08.2024 | 4              | 04_heat_eqn_implicit.cpp       | 887965b    |
 | 31.08.2024 | 5              | 05_crank_nicolson.cpp          | 2979e2e    |
 | 02.09.2024 | 6              | 06_semi-implicit_heat.cpp      | 20d3221    |
-|            |                |                                |            |
-|            |                |                                |            |
-|            |                |                                |            |
-|            |                |                                |            |
-|            |                |                                |            |
+| 09.09.2024 | 7              | 07_laplace_eqn.cpp             | 5e6d1f7    |
+| 23.09.2024 | 8              | 08_laplace_siedal.cpp          | 6e67798    |
+| 30.09.2024 | 9              | 09_poisson_eqn.cpp             | b97aee7    |
+| 14.10.2024 | 10             | 10_wave_eqn_I.cpp              | c16d2d9    |
+| 21.10.2024 | 11             | 11_heat_fvm.cpp                | eb7b6ca    |
 |            |                |                                |            |
 |            |                |                                |            |
