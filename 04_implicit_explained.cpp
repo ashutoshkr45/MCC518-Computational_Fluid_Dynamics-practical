@@ -54,23 +54,23 @@ int main(){
         d[n] = u[n];
         
         alpha[0] = b[0];
-	    beta[0] = d[0] / b[0];
+	beta[0] = d[0] / b[0];
 	
-	    for(i=1; i<=n; i++){
-		    alpha[i] = b[i] - (a[i] * c[i-1] / alpha[i-1]);
-		    beta[i] = (d[i] - a[i] * beta[i-1])/ alpha[i];
-	    }
+	for(i=1; i<=n; i++){
+		alpha[i] = b[i] - (a[i] * c[i-1] / alpha[i-1]);
+		beta[i] = (d[i] - a[i] * beta[i-1])/ alpha[i];
+	}
 	    
-	    x[n] = beta[n];
-	    for(i=n-1; i>=0; i--)
-		    x[i] = beta[i] - (c[i] * x[i+1]) / alpha[i];
+	x[n] = beta[n];
+	for(i=n-1; i>=0; i--)
+		x[i] = beta[i] - (c[i] * x[i+1]) / alpha[i];
 		    
-		for(i=0;i<=n;i++)
-		    u[i] = x[i];
-		for(i=1;i<n;i++){
-		    u_prev[i] = u[i];
-		}
-		for(i=0;i<=n;i++)
+	for(i=0;i<=n;i++)
+		u[i] = x[i];
+	for(i=1;i<n;i++){
+		u_prev[i] = u[i];
+	}
+	for(i=0;i<=n;i++)
             cout<<u[i]<<"\t";
         cout<<endl;
     }
